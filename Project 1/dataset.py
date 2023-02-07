@@ -40,7 +40,7 @@ def main():
     xy = generate_black_scholes_put_data(10_000)
     xy_df = pd.DataFrame(xy, columns=["S", "K", "T", "r", "sigma", "value"])
 
-    xy_df.to_csv("bs-put-10k.csv.csv")
+    xy_df.to_csv("bs-put-10k.csv")
 
 
 if __name__ == "__main__":
