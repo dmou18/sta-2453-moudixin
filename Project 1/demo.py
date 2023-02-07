@@ -56,7 +56,7 @@ def main():
     model = PutNet()
 
     # Load dataset
-    df = pd.read_csv("bs-put-1k.csv")
+    df = pd.read_csv("bs-put-10k.csv")
 
     # Power Transform
     pt = PowerTransformer()
